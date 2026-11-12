@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom';import { ArrowLeft } from 'lucide-react';
+export default function NotFound(){return <section className="not-found"><span>404</span><p className="eyebrow">PAGE NOT FOUND</p><h1>This page took<br/><em>a wrong turn.</em></h1><p>The page you are looking for may have moved or no longer exists.</p><Link to="/" className="button button-primary"><ArrowLeft size={16}/> Back to home</Link></section>}
